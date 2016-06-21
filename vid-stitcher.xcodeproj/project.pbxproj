@@ -12,6 +12,11 @@
 		55A523DB1D17C4310076927F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A523D91D17C4310076927F /* Main.storyboard */; };
 		55A523DD1D17C4310076927F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A523DC1D17C4310076927F /* Assets.xcassets */; };
 		55A523E01D17C4310076927F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A523DE1D17C4310076927F /* LaunchScreen.storyboard */; };
+		55A523E81D1862D50076927F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A523E71D1862D50076927F /* AVFoundation.framework */; };
+		55A523F11D18642C0076927F /* 1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 55A523ED1D18642C0076927F /* 1.m4v */; };
+		55A523F21D18642C0076927F /* 2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 55A523EE1D18642C0076927F /* 2.m4v */; };
+		55A523F31D18642C0076927F /* 3.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 55A523EF1D18642C0076927F /* 3.m4v */; };
+		55A523F41D18642C0076927F /* 4.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 55A523F01D18642C0076927F /* 4.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		55A523DC1D17C4310076927F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A523DF1D17C4310076927F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A523E11D17C4310076927F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A523E71D1862D50076927F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		55A523ED1D18642C0076927F /* 1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4v; sourceTree = "<group>"; };
+		55A523EE1D18642C0076927F /* 2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4v; sourceTree = "<group>"; };
+		55A523EF1D18642C0076927F /* 3.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4v; sourceTree = "<group>"; };
+		55A523F01D18642C0076927F /* 4.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A523E81D1862D50076927F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +49,7 @@
 		55A523C91D17C4310076927F = {
 			isa = PBXGroup;
 			children = (
+				55A523E71D1862D50076927F /* AVFoundation.framework */,
 				55A523D41D17C4310076927F /* vid-stitcher */,
 				55A523D31D17C4310076927F /* Products */,
 			);
@@ -54,6 +66,10 @@
 		55A523D41D17C4310076927F /* vid-stitcher */ = {
 			isa = PBXGroup;
 			children = (
+				55A523ED1D18642C0076927F /* 1.m4v */,
+				55A523EE1D18642C0076927F /* 2.m4v */,
+				55A523EF1D18642C0076927F /* 3.m4v */,
+				55A523F01D18642C0076927F /* 4.m4v */,
 				55A523D51D17C4310076927F /* AppDelegate.swift */,
 				55A523D71D17C4310076927F /* ViewController.swift */,
 				55A523D91D17C4310076927F /* Main.storyboard */,
@@ -124,8 +140,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A523E01D17C4310076927F /* LaunchScreen.storyboard in Resources */,
+				55A523F41D18642C0076927F /* 4.m4v in Resources */,
 				55A523DD1D17C4310076927F /* Assets.xcassets in Resources */,
 				55A523DB1D17C4310076927F /* Main.storyboard in Resources */,
+				55A523F31D18642C0076927F /* 3.m4v in Resources */,
+				55A523F21D18642C0076927F /* 2.m4v in Resources */,
+				55A523F11D18642C0076927F /* 1.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
